@@ -42,6 +42,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+.pytest_cache/
 
 # Translations
 *.mo
@@ -56,4 +57,17 @@ docs/_build/
 # PyBuilder
 target/
 
+# vim
+*.swp
+
+# emacs
 *~
+
+# Visual Studio
+*.sln
+*.pyproj
+*.suo
+*.vs
+
+# PyCharm
+.idea/
